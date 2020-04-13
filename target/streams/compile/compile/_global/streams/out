@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/allen/rep/fpis4.1/src/main/scala/OptionTest.scala:29:79: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : None.type[0m
+[0m[[0m[31merror[0m] [0m[0m required: B[0m
+[0m[[0m[31merror[0m] [0m[0m  def flatMap[B](f: A => Option[B]): Option[B] = this.map(x => f(x).getOrElse(None))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
